@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kandivali Phool Market</title>
+    <link rel="icon" type="image/png" href="{% static 'assets/images/logo/imagelogo.png' %}" sizes="192x192" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.min.css" rel="stylesheet" />
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js"></script>
+    <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
+</head>
+<body class="font-[Lato] text-gray-800">
+    <header class="fixed top-0 w-full bg-white shadow-sm z-50">
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <img class="h-20 " src="{% static 'assets\images\logo\NoBgLogo.png' %}" alt="Logo" />
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="{% url 'home' %}" class="text-custom hover:text-custom/80">Home</a>
+                    <a href="{% url 'products' %}" class="text-gray-600 hover:text-custom">Products</a>
+                    <a href="#" class="text-gray-600 hover:text-custom">About Us</a>
+                    <a href="#" class="text-gray-600 hover:text-custom">Reviews</a>
+                    <a href="#" class="text-gray-600 hover:text-custom">Contact</a>
+                </nav>
+                <div class="flex items-center space-x-6">
+                    <div class="flex-1 max-w-lg mx-8"><div class="relative"><input type="text" placeholder="Search products..." class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-custom focus:border-custom" /><button class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-custom"><i class="fas fa-search"></i></button></div></div>
+                    <button class="bg-black text-white px-6 py-2 !rounded-button hover:bg-custom/90">
+                        Bulk Orders
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    
+
+    <script>
+        new Glide('.glide', {
+            type: 'carousel',
+            autoplay: 5000,
+            hoverpause: true,
+            gap: 0,
+            animationDuration: 1000
+        }).mount();
+    </script>
+
+
+
+</body>
+</html>

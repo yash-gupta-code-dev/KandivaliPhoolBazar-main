@@ -1,0 +1,288 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            z-index: 50;
+        }
+
+        .header-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+
+        @media (min-width: 640px) {
+            .header-container {
+                padding: 0 24px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .header-container {
+                padding: 0 32px;
+            }
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 64px;
+        }
+
+        @media (min-width: 768px) {
+            .header-inner {
+                height: 80px;
+            }
+        }
+
+        /* Logo styles */
+        .logo {
+            flex-shrink: 0;
+        }
+
+            .logo img {
+                height: 48px;
+            }
+
+        @media (min-width: 768px) {
+            .logo img {
+                height: 64px;
+            }
+        }
+
+        /* Mobile menu button */
+        .mobile-menu-button {
+            display: block;
+            color: #4b5563;
+            background: none;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            position: relative;
+            left: 35vw;
+        }
+
+            .mobile-menu-button:hover {
+                color: #070707;
+            }
+
+        @media (min-width: 768px) {
+            .mobile-menu-button {
+                display: none;
+            }
+        }
+
+        /* Desktop navigation */
+        .desktop-nav {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .desktop-nav {
+                display: flex;
+                gap: 24px;
+            }
+        }
+
+        .nav-link {
+            color: #4b5563;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.2s;
+        }
+
+            .nav-link:hover {
+                color: #050505;
+            }
+
+            .nav-link.active {
+                color: #000000;
+            }
+
+        /* Header actions */
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        @media (min-width: 768px) {
+            .header-actions {
+                gap: 24px;
+            }
+        }
+
+        /* Search bar */
+        .search-form {
+            display: none;
+            flex: 1;
+            max-width: 512px;
+            margin: 0 16px;
+            position: relative;
+        }
+
+        @media (min-width: 768px) {
+            .search-form {
+                display: block;
+            }
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 8px 16px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+            .search-input:focus {
+                outline: none;
+                border-color: #3b82f6;
+                box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+            }
+
+        .search-button {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: #9ca3af;
+            cursor: pointer;
+        }
+
+            .search-button:hover {
+                color: #3b82f6;
+            }
+
+        /* Mobile menu */
+        .mobile-menu {
+            display: none;
+            background-color: white;
+            padding: 8px 0;
+        }
+
+            .mobile-menu.active {
+                display: block;
+            }
+
+        .mobile-menu-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mobile-search {
+            background-color: white;
+            margin-bottom: 8px;
+        }
+
+        .mobile-search-form {
+            position: relative;
+        }
+
+        .mobile-menu-link {
+            color: #4b5563;
+            text-decoration: none;
+            padding: 8px 0;
+            font-size: 16px;
+        }
+
+            .mobile-menu-link:hover {
+                color: #3b82f6;
+            }
+
+            .mobile-menu-link:first-child {
+                color: #3b82f6;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-inner">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="{% static 'assets/images/logo/NoBgLogo.png' %}" alt="Logo" />
+                </div>
+
+                <!-- Mobile Menu Button (hidden on desktop) -->
+                <button class="mobile-menu-button" id="mobile-menu-button">
+                    Menu
+                </button>
+
+                <!-- Desktop Navigation (hidden on mobile) -->
+                <nav class="desktop-nav">
+                    <a href="{% url 'home' %}" class="nav-link active">Home</a>
+                    <a href="{% url 'products' %}" class="nav-link">Products</a>
+                    <a href="#email_section" class="nav-link">Contact</a>
+                </nav>
+
+                <!-- Search and Bulk Order (visible on all screens) -->
+                <div class="header-actions">
+                    <!-- Search Bar (hidden on mobile unless toggled) -->
+                    <div class="search-form">
+                        <form id="homepage-search-form" class="search-form-inner">
+                            <input type="text" name="search" placeholder="Search products..." class="search-input" />
+                            <button type="submit" class="search-button">
+                                <img src="{% static 'assets/images/icons/search.svg' %}" alt="Search" />
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Search Bar (hidden by default) -->
+            <!-- Mobile Navigation Menu (hidden by default) -->
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="mobile-menu-content">
+                    <div class="mobile-search" id="mobile-search">
+                        <form id="mobile-search-form" class="mobile-search-form">
+                            <input type="text" name="search" placeholder="Search products..." class="search-input" />
+                            <button type="submit" class="search-button">
+                                <img src="{% static 'assets/images/icons/search.svg' %}" alt="Search" />
+                            </button>
+                        </form>
+                    </div>
+                    <a href="{% url 'home' %}" class="mobile-menu-link">Home</a>
+                    <a href="{% url 'products' %}" class="mobile-menu-link">Products</a>
+                    <a href="#email_section" class="mobile-menu-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        // Toggle mobile menu
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

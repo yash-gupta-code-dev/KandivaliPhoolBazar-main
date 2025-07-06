@@ -1,0 +1,40 @@
+<section class="py-16 bg-gray-100 mb-4" id="location">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-semibold text-center mb-6">Our Location</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+      
+      <!-- Map Embed -->
+      <div class="w-full h-96">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.9587122679605!2d72.85173066963476!3d19.202414365366007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7000d3b1033%3A0x1550bd931f94bbc6!2sKandivali%20Phool%20Market!5e0!3m2!1sen!2sin!4v1751806605263!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Address + Maps Link -->
+      <div class="text-center md:text-left">
+        <h3 class="text-xl font-bold mb-2">Visit Our Shop</h3>
+        <p class="text-gray-700 mb-4">
+            Shop No. 14, Dattani Center, Akurli Rd, Near Kandivali Railway Station, Akurli Nagar, Kandivali East, Mumbai, Maharashtra 400101
+        </p>
+        <a id="mapLink" href="https://maps.app.goo.gl/pfDBqSHCtQ45enc7A" target="_blank" class="inline-block bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition">
+          Open in Maps
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const mapLink = document.getElementById("mapLink");
+    const address = "123 Blossom Street, Flower City, State";
+
+    const isAppleDevice = /iPad|iPhone|Macintosh/.test(navigator.userAgent) && !window.MSStream;
+
+    if (isAppleDevice) {
+        mapLink.href = `https://maps.app.goo.gl/pfDBqSHCtQ45enc7A`;
+    } else {
+        mapLink.href = `https://maps.app.goo.gl/pfDBqSHCtQ45enc7A`;
+    }
+  });
+</script>

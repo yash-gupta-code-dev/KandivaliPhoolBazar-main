@@ -1,0 +1,77 @@
+{% load static %}
+<!-- Include EmailJS SDK -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      emailjs.init("rDAb1REqPBZcH3jar"); // Replace with your public key
+
+    const form = document.getElementById("contact-form");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm("service_mtepa6p", "template_2unytoj", form)
+        .then(function () {
+          alert("Message sent successfully!");
+          form.reset();
+        }, function (error) {
+          alert("Failed to send message. Please try again.");
+          console.error(error);
+        });
+    });
+  });
+</script>
+
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" id="email_section">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <!-- Contact Information -->
+    <div>
+      <h2 class="font-['Playfair_Display'] text-4xl mb-6">Get in Touch for Custom Orders</h2>
+      <p class="text-gray-600 mb-8">Need bulk garlands for your special event? We're here to help create the perfect floral arrangements that match your vision.</p>
+      <div class="space-y-4">
+        <div class="flex items-center">
+<a href="tel:+918850721321" class="flex items-center text-blue-600 hover:underline">
+  <img class="mr-4 w-5 h-5" src="{% static 'assets/images/icons/telephone.svg' %}" alt="Phone icon">
+  <span class="text-black">+91 88507 21321</span>
+</a>
+
+        </div>
+        <div class="flex items-center">
+         <a href="mailto:manojgupta198700@gmail.com" class="flex items-center text-blue-600 hover:underline">
+  <img class="mr-4 w-5 h-5" src="{% static 'assets/images/icons/envelope.svg' %}" alt="Email icon">
+  <span class="text-black" >manojgupta198700@gmail.com</span>
+</a>
+
+        </div>
+        <div class="flex items-center">
+          <img class="mr-4 w-5 h-5" src="{% static 'assets/images/icons/geo-fill.svg' %}" alt="Location icon">
+          <span>
+             <p> Shop No. 14, Dattani Center, Akurli Rd, Near Kandivali Railway Station, Akurli Nagar, Kandivali East, Mumbai, Maharashtra 400101
+              </p>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="bg-gray-50 p-8 rounded-lg">
+      <form id="contact-form" class="space-y-6">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+          <input type="text" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Your name" required>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+          <input type="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Your email" required>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+          <textarea name="message" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" rows="4" placeholder="Tell us about your requirements" required></textarea>
+        </div>
+        <button type="submit" class="w-full bg-black text-white py-3 rounded-lg hover:bg-blue-600 transition-colors">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

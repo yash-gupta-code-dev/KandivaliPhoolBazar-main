@@ -1,0 +1,34 @@
+Link Reference: https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu
+
+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
+
+Working dir: /home/ubuntu/project/KandivaliPhoolBazar/kandivaliPhoolMarket
+
+
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/project/KandivaliPhoolBazar/kandivaliPhoolMarket
+ExecStart=/home/ubuntu/project/KandivaliPhoolBazar/kandivaliPhoolMarket/env/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --bind unix:/run/gunicorn.sock \
+          kandivaliPhoolMarket.wsgi:application
+
+
+server {
+    listen 80;
+    server_name 3.92.194.9;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+    }
+}

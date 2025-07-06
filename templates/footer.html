@@ -1,0 +1,31 @@
+{% load static %}
+<footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="space-y-4">
+
+                <!-- Footer logo Is here-->
+                <img class="h-24" src="{% static 'assets/images/logo/NoBgLogo.png' %}" alt="Logo" />
+
+                <p class="text-gray-400">Crafting beautiful garlands for your special moments.</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-lg mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="{% url 'home' %}" class="text-gray-400 hover:text-white">Home</a></li>
+                    <li><a href="{% url 'products' %}" class="text-gray-400 hover:text-white">Products</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                    <li><a href="#email_section" class="text-gray-400 hover:text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+               
+                </div>
+            </div>
+
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+            <p>2025 Kandivali Phool Market. All rights reserved.</p>
+        </div>
+    </div>
+</footer>

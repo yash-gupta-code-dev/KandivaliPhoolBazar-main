@@ -1,0 +1,125 @@
+﻿{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Kandivali Phool Market </title>
+    <script src="{% static 'assets/js/3.4.16.js' %}"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { primary: '#6d28d9', secondary: '#8b5cf6' }, borderRadius: { 'none': '0px', 'sm': '4px', DEFAULT: '8px', 'md': '12px', 'lg': '16px', 'xl': '20px', '2xl': '24px', '3xl': '32px', 'full': '9999px', 'button': '8px' } } }</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Lato:wght@300;400;700&amp;display=swap"
+          rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link href="{% static 'assets/css/remixicon.css' %}" rel="stylesheet">
+
+
+
+
+
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+
+        #product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .product-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .product-image-container {
+            height: 12rem;
+            overflow: hidden;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body class="bg-white min-h-screen flex flex-col">
+    <!-- Header -->
+    {% include 'header.html' %}
+
+
+    <main class="flex-grow container mx-auto px-6 py-10 flex flex-col md:flex-row gap-8 relative top-[10vh]">
+        <!-- Main Content -->
+        <div class="flex-grow">
+            <!-- Featured Flowers -->
+            <section>
+                <h2 class="text-2xl font-bold mb-6">Featured Flowers</h2>
+
+                <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+
+                    <!-- Product 1 -->
+                    <!--<div class="bg-white rounded shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition">
+                <div class="h-48 overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=beautiful%20red%20roses%20bouquet%20with%20green%20leaves%20on%20white%20background%2C%20professional%20product%20photography%2C%20high%20resolution%2C%20commercial%20quality%2C%20elegant%20arrangement&width=400&height=300&seq=1&orientation=landscape"
+                         alt="Red Roses Bouquet" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg">Red Roses Bouquet</h3>
+                    <p class="text-gray-600 text-sm mt-1">Classic symbol of love</p>
+                    <div class="mt-4 flex items-center justify-between">
+                        <button class="bg-gray-900 text-white px-3 py-1.5 !rounded-button text-sm whitespace-nowrap hover:bg-gray-800 transition flex items-center gap-2">
+                            <i class="ri-whatsapp-line ri-lg"></i>
+                            Get a Quote
+                        </button>
+                    </div>
+                </div>
+            </div>-->
+
+
+                </div>
+
+
+
+            </section>
+            <div class="flex justify-center mt-6">
+                <button id="show-more-btn" class="px-4 py-2 bg-black text-white rounded hover:bg-neutral-700">
+                    Show More
+                </button>
+            </div>
+            <!-- Custom Orders Section -->
+            {% include 'email.html' %}
+        </div>
+    </main>
+    <!-- Footer -->
+    {% include 'footer.html' %}
+    <!-- Include jQuery first -->
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+
+
+    <!--  Link your JS file -->
+    <script src="{% static 'assets/js/product.js' %}"></script>
+
+    <script src="{% static 'assets/js/search.js'%}"></script>
+</body>
+</html>

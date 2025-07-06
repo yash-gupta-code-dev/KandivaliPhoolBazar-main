@@ -1,0 +1,215 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kandivali Phool Market - Home</title>
+    <link rel="icon" type="image/png" href="{% static 'assets/images/logo/imagelogo.png' %}" sizes="192x192" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet" />
+    <link href="{% static 'assets/css/all.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/glide.core.min.css'%}" rel="stylesheet" />
+    <link href="{% static 'assets/css/glide.theme.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/tailwind-custom.css' %}" rel="stylesheet" />
+    <script src="{% static 'assets/js/glide.min.js' %}"></script>
+    <script src="{% static 'assets/js/3.4.js' %}"></script>
+    <script src="{% static 'assets/js/tailwind-config.min.js' %}" data-color="#000000" data-border-radius="small"></script>
+</head>
+<body class="font-[Lato] text-gray-800">
+   {% include "header.html" %}
+
+    <main class="pt-20">
+       
+        <div class="glide relative top-[0vh] overflow-hidden">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide relative">
+                        <!-- Responsive Image (cover full width, adjust height) -->
+                        <img src="{% static 'assets/images/garland_pictures/headBg1.jpg' %}"
+                             alt="Garland"
+                             class="w-full h-[60vh] sm:h-[70vh] md:h-[80vh] object-cover" />
+
+                        <!-- Dark Overlay -->
+                        <div class="absolute inset-0 bg-black/40"></div>
+
+                        <!-- Content Container -->
+                        <div class="absolute inset-0 flex items-center justify-center text-center">
+                            <div class="max-w-4xl px-4 w-full">
+                                <!-- Responsive Heading -->
+                                <h1 class="font-['Playfair_Display'] text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 md:mb-6">
+                                    Add a Touch of Beauty to Your Life with Our Premium Garlands
+                                </h1>
+
+                                <!-- Responsive Buttons -->
+                                <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
+                                    <button onclick="document.getElementById('product_collections').scrollIntoView({ behavior: 'smooth' });"
+                                            class="bg-custom text-white px-6 py-2 sm:px-8 sm:py-3 !rounded-button hover:bg-custom/90 transition-colors">
+                                        Shop Now
+                                    </button>
+
+                                    <button onclick="openWhatsApp()" class="bg-white text-custom px-6 py-2 sm:px-8 sm:py-3 !rounded-button hover:bg-gray-100 transition-colors">
+                                        Contact for Bulk Orders
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="absolute bottom-4 left-0 right-0" data-glide-el="controls[nav]">
+                <div class="flex justify-center gap-2">
+                    <button class="w-2 h-2 rounded-full bg-white/50" data-glide-dir="=0"></button>
+                    <button class="w-2 h-2 rounded-full bg-white/50" data-glide-dir="=1"></button>
+                    <button class="w-2 h-2 rounded-full bg-white/50" data-glide-dir="=2"></button>
+                </div>
+            </div>
+        </div>
+
+        <section class="py-20 bg-gray-50 ">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative top-[15vh]">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="font-[&#39;Playfair_Display&#39;] text-4xl mb-6">Welcome to Bloom &amp; Garland</h2>
+                    <p class="text-gray-600 mb-8">We handcraft traditional Indian garlands that add grace, color, and sacred beauty to your most cherished moments. Made with love and the finest flowers and materials, each piece reflects timeless craftsmanship and the spirit of celebration, perfectly suited for weddings, pujas, and festive occasions.</p>
+                   <a href="{% url 'products' %}"> <button class="bg-custom text-white px-8 py-3 !rounded-button hover:bg-custom/90">
+                    Explore Our Products
+                </button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 " id="product_collections" style="position: relative; top: 20vh">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-[&#39;Playfair_Display&#39;] text-4xl text-center mb-12">Our Product Collections</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="group relative overflow-hidden rounded-lg">
+                        <img src="{% static 'assets/images/garland_pictures/productSectionImage1.jpg' %}" class="w-full h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-300" alt="Wedding Garlands" />
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center">
+                                <h3 id="category1" class="text-white text-2xl font-[&#39;Playfair_Display&#39;] mb-4">Wedding Garlands</h3>
+                                <button class="bg-white text-custom px-6 py-2 !rounded-button hover:bg-gray-100">
+                                    View Collection
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg">
+                        <img src="{% static 'assets/images/garland_pictures/productSectionImage2.jpg' %}" class="w-full h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-300" alt="Wholesale Garlands" />
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center">
+                                <h3 class="text-white text-2xl font-[&#39;Playfair_Display&#39;] mb-4">Wholesale Garlands</h3>
+                                <button class="bg-white text-custom px-6 py-2 !rounded-button hover:bg-gray-100">
+                                    View Collection
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-lg">
+                        <img src="{% static 'assets/images/garland_pictures/productSectionImage3.jpg' %}" class="w-full h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-300" alt="Custom Designs" />
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center">
+                                <h3 class="text-white text-2xl font-[&#39;Playfair_Display&#39;] mb-4">Custom Designs</h3>
+                                <button class="bg-white text-custom px-6 py-2 !rounded-button hover:bg-gray-100">
+                                    View Collection
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="py-20 bg-gray-50 mt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-[&#39;Playfair_Display&#39;] text-4xl text-center  mb-12">What Our Customers Say</h2>
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="bg-white p-8 rounded-lg shadow-sm max-w-2xl mx-auto">
+                                    <div class="flex items-center mb-4">
+                                        <img src="{% static 'assets\images\people/man1.png'%}" class="w-12 h-12 rounded-full mr-4" alt="Customer" />
+                                        <div>
+                                            <h4 class="font-semibold">Amit Tiwari</h4>
+                                        </div>
+                                    </div>
+                                    <p class="text-gray-600">&#34;Flowers toh bilkul stunning the! Mere wedding day ke liye perfect choice thi. Quality aur detailing ne meri expectations ko cross kar diya.&#34;</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      {% include 'email.html' %}
+      {% include 'maplocation.html' %}
+
+
+    </main>
+
+    {% include 'footer.html' %}
+<script>
+    new Glide('.glide', {
+    type: 'carousel',
+    autoplay: 5000,
+    hoverpause: true,
+    gap: 0,
+    animationDuration: 1000
+}).mount();
+
+</script>
+
+<script src="{% static 'assets/js/search.js' %}"></script>
+<script>
+    function openWhatsApp() {
+        const phone = '918850721321';
+        const currentUrl = window.location.href; // Get current page URL
+        const message = `Hello! I am looking for a Bulk order for products.`;
+        const urlencodedtext = encodeURIComponent(message);
+        // Construct WhatsApp URL with encoded text parameter
+        const whatsappUrl = `https://wa.me/${phone}?text=${urlencodedtext}`;
+
+        // Open WhatsApp chat window in a new tab
+        const whatsappWindow = window.open(whatsappUrl, '_blank');
+
+        // Check if the window was blocked or failed to open
+        setTimeout(() => {
+            if (!whatsappWindow || whatsappWindow.closed) {
+                const shouldDownload = confirm('WhatsApp not detected or popup blocked. Would you like to download it?');
+                if (shouldDownload) {
+                    window.location.href = 'https://www.whatsapp.com/download';
+                }
+            }
+        });
+    }
+</script>
+
+
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll("#product_collections button");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", function () {
+        const h3 = button.closest("div.text-center").querySelector("h3")    ;
+        const category = h3 ? h3.textContent.trim() : "";
+
+        if (category) {
+          const searchParam = encodeURIComponent(category);
+          window.location.href = `/products?search=${searchParam}`;
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+
+</html>

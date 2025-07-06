@@ -1,0 +1,399 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{product.name}} - Kandivali Phool Market</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config = { theme: { extend: { colors: { primary: '#6d28d9', secondary: '#8b5cf6' }, borderRadius: { 'none': '0px', 'sm': '4px', DEFAULT: '8px', 'md': '12px', 'lg': '16px', 'xl': '20px', '2xl': '24px', '3xl': '32px', 'full': '9999px', 'button': '8px' } } } }</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Lato:wght@300;400;700&amp;display=swap"
+          rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+
+        .custom-checkbox {
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #d1d5db;
+            border-radius: 4px;
+            position: relative;
+            cursor: pointer;
+        }
+
+            .custom-checkbox:checked {
+                background-color: #6366f1;
+                border-color: #6366f1;
+            }
+
+                .custom-checkbox:checked::after {
+                    content: "";
+                    position: absolute;
+                    left: 6px;
+                    top: 2px;
+                    width: 6px;
+                    height: 12px;
+                    border: solid white;
+                    border-width: 0 2px 2px 0;
+                    transform: rotate(45deg);
+                }
+
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        .product-thumbnail.active {
+            border-color: #6366f1;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    {% include "header.html" %}
+    <!-- JavaScript for mobile menu toggle -->
+   
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-24">
+        <!-- Product Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+            <!-- Product Images -->
+            <div class="space-y-4">
+                <div class="bg-gray-50 rounded-lg overflow-hidden h-96 flex items-center justify-center">
+                    <img id="mainImage" src="{{product.image.url}}" alt="{{product.name}}" class="object-contain h-full w-full object-top">
+                </div>
+
+                <div class="grid grid-cols-4 gap-2">
+                    <div class="product-thumbnail h-24 border-2 border-gray-200 rounded cursor-pointer overflow-hidden">
+                        <img id="mainImage" src="{{product.image.url}}" alt="{{product.name}}" class="object-contain h-full w-full object-top">
+                    </div>
+
+                 {% if product.image2 %}
+    <div class="product-thumbnail h-24 border-2 border-gray-200 rounded cursor-pointer overflow-hidden">
+        <img id="mainImage" src="{{ product.image2.url }}" alt="{{ product.name }}" class="object-contain h-full w-full object-top">
+    </div>
+{% endif %}
+
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="space-y-6">
+                <h1 class="text-3xl font-bold">{{product.name}}</h1>
+
+                <div class="flex items-center space-x-2">
+                    <div class="flex">
+                        <i class="ri-star-fill text-yellow-400"></i>
+                        <i class="ri-star-fill text-yellow-400"></i>
+                        <i class="ri-star-fill text-yellow-400"></i>
+                        <i class="ri-star-fill text-yellow-400"></i>
+                        <i class="ri-star-half-fill text-yellow-400"></i>
+                    </div>
+                    <span class="text-sm text-gray-600">(28 reviews)</span>
+                </div>
+
+                <!--<div class="text-2xl font-bold text-primary">$129.99</div>-->
+
+                <div>
+                    <h2 class="text-lg font-semibold mb-2">Description</h2>
+                    <div class="relative">
+  <div id="description" 
+       class="text-gray-700 max-w-full sm:max-w-md md:max-w-lg lg:max-w-2xl whitespace-pre-wrap break-words overflow-hidden line-clamp-3 transition-all duration-300">
+    {{ product.description }}
+  </div>
+
+  <button id="toggleBtn" 
+          class="mt-2 text-blue-500 hover:underline focus:outline-none">
+    Show more
+  </button>
+</div>
+
+<script>
+  const desc = document.getElementById('description');
+  const toggleBtn = document.getElementById('toggleBtn');
+
+  toggleBtn.addEventListener('click', () => {
+    desc.classList.toggle('line-clamp-3');
+    const isClamped = desc.classList.contains('line-clamp-3');
+    toggleBtn.textContent = isClamped ? 'Show more' : 'Show less';
+  });
+</script>
+
+                </div>
+
+                <div class="space-y-4">
+
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <div class="whatsapp-container">
+                            <button onclick="openWhatsApp()" class="bg-black text-white py-3 px-6 !rounded-button whitespace-nowrap flex items-center justify-center">
+                                <i class="ri-whatsapp-line mr-2"></i>
+                                Get Quote on WhatsApp
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center space-x-4">
+
+                        <button class="flex items-center text-gray-600 hover:text-primary" id="share">
+                            <i class="ri-share-line mr-1"></i>
+                            Share
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+<script>
+document.getElementById('share').addEventListener('click', function () {
+    const url = window.location.href;
+
+    navigator.clipboard.writeText(url)
+        .then(() => {
+            showToast('URL copied to clipboard successfully.');
+        })
+        .catch(err => {
+            showToast('Failed to copy the URL.', true);
+            console.error('Copy failed: ', err);
+        });
+});
+
+function showToast(message, isError = false) {
+    const toast = document.createElement('div');
+
+    toast.innerHTML = `
+        <div style="display: flex; align-items: center;">
+            <div style="
+                background-color: ${isError ? '#d32f2f' : '#2e7d32'};
+                color: white;
+                padding: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                font-size: 16px;
+                width: 44px;
+                height: 100%;
+            ">
+                ${isError ? '✖' : '✔'}
+            </div>
+            <div style="
+                background: #ffffff;
+                padding: 14px 16px;
+                font-family: 'Segoe UI', sans-serif;
+                color: #333;
+                font-size: 14.5px;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                line-height: 1.4;
+                flex: 1;
+                position: relative;
+            ">
+                ${message}
+                <span style="
+                    position: absolute;
+                    top: 10px;
+                    right: 12px;
+                    font-size: 16px;
+                    color: #999;
+                    cursor: pointer;
+                    transition: color 0.2s ease;
+                " onclick="this.closest('.toast-box').remove()">×</span>
+            </div>
+        </div>
+    `;
+
+    toast.className = 'toast-box';
+
+    Object.assign(toast.style, {
+        position: 'fixed',
+        top: '20px',
+        right: '20px',
+        maxWidth: '380px',
+        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+        borderRadius: '8px',
+        overflow: 'hidden',
+        zIndex: 9999,
+        opacity: 0,
+        transform: 'translateY(-10px)',
+        transition: 'opacity 0.3s ease, transform 0.3s ease',
+    });
+
+    document.body.appendChild(toast);
+
+    // Animate in
+    requestAnimationFrame(() => {
+        toast.style.opacity = 1;
+        toast.style.transform = 'translateY(0)';
+    });
+
+    // Auto-dismiss after 3s
+    setTimeout(() => {
+        toast.style.opacity = 0;
+        toast.style.transform = 'translateY(-10px)';
+        setTimeout(() => toast.remove(), 300);
+    }, 3000);
+}
+</script>
+
+
+
+
+        <!-- Customer Reviews Section -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-8">Customer Reviews</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Review 1 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20woman%20with%20blonde%20hair%20smiling%2C%20business%20portrait%2C%20neutral%20background%2C%20high%20quality&width=100&height=100&seq=10&orientation=squarish" alt="Emily Anderson" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Emily Anderson</h3>
+                            <div class="flex text-yellow-400">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">Beautiful garland that exceeded my expectations! The flowers look incredibly realistic and the quality is outstanding. It was perfect for my wedding ceremony arch.</p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20man%20with%20dark%20hair%20and%20glasses%2C%20business%20portrait%2C%20neutral%20background%2C%20high%20quality&width=100&height=100&seq=11&orientation=squarish" alt="Michael Chen" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Michael Chen</h3>
+                            <div class="flex text-yellow-400">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">Ordered 3 pieces! The colors are vibrant and the flowers are very nicely made. Used it for my daughter's wedding and it transformed our venue completely.</p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20woman%20with%20brown%20hair%2C%20business%20portrait%2C%20neutral%20background%2C%20high%20quality&width=100&height=100&seq=12&orientation=squarish" alt="Sophia Garcia" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Sophia Garcia</h3>
+                            <div class="flex text-yellow-400">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">Beautiful garland that exceeded my expectations! The flowers look incredibly realistic and the quality is outstanding. It was perfect for my wedding ceremony arch.</p>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20man%20with%20short%20hair%2C%20business%20portrait%2C%20neutral%20background%2C%20high%20quality&width=100&height=100&seq=13&orientation=squarish" alt="James Wilson" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">James Wilson</h3>
+                            <div class="flex text-yellow-400">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">Ordered 3 pieces! The colors are vibrant and the flowers are very nicely made. Used it for my daughter's wedding and it transformed our venue completely.</p>
+                </div>
+            </div>
+        </section>
+
+          <!-- Email Section is Here -->
+          {% include "email.html" %}
+          {% include "maplocation.html" %}
+
+    </main>
+
+    
+
+    {% include 'footer.html' %}
+    <script src="{% static 'assets/js/search.js' %}"></script>
+    <script>
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Product thumbnails functionality
+            const thumbnails = document.querySelectorAll('.product-thumbnail');
+            const mainImage = document.getElementById('mainImage');
+
+            thumbnails.forEach(thumbnail => {
+                thumbnail.addEventListener('click', function () {
+                    // Remove active class from all thumbnails
+                    thumbnails.forEach(t => t.classList.remove('active'));
+
+                    // Add active class to clicked thumbnail
+                    this.classList.add('active');
+
+                    // Update main image
+                    const thumbnailImg = this.querySelector('img');
+                    mainImage.src = thumbnailImg.src;
+                });
+            });
+        });
+    </script>
+
+    <script>
+        function openWhatsApp() {
+            const phone = '918850721321';
+            const currentUrl = window.location.href; // Get current page URL
+            const message = `I wish to get a quote on this product. ${currentUrl}`;
+            const text = encodeURIComponent(message);
+            // Construct WhatsApp URL with encoded text parameter
+            const whatsappUrl = `https://wa.me/${phone}?text=${text}`;
+
+            // Open WhatsApp chat window in a new tab
+            const whatsappWindow = window.open(whatsappUrl, '_blank');
+
+            // Check if the window was blocked or failed to open
+            setTimeout(() => {
+                if (!whatsappWindow || whatsappWindow.closed) {
+                    const shouldDownload = confirm('WhatsApp not detected or popup blocked. Would you like to download it?');
+                    if (shouldDownload) {
+                        window.location.href = 'https://www.whatsapp.com/download';
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
