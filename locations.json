@@ -1,0 +1,12 @@
+[
+{
+  "model": "mainApp.location",
+  "pk": 1,
+  "fields": {
+    "name": "location of Shop Iframe",
+    "maps_embed_url": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d235.48966259314975!2d72.85240912547171!3d19.20242517510261!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1747557124738!5m2!1sen!2sin",
+    "created_at": "2025-05-18T09:47:23.633Z",
+    "updated_at": "2025-05-18T09:47:36.824Z"
+  }
+}
+]
