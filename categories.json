@@ -1,0 +1,41 @@
+[
+{
+  "model": "mainApp.category",
+  "pk": 3,
+  "fields": {
+    "name": "Wedding Garlands",
+    "slug": "wedding_garland",
+    "description": "Wedding garlands are traditional floral arrangements exchanged by the bride and groom during the wedding ceremony. Made from fresh flowers like roses, jasmine, or marigolds, these garlands symbolize love, acceptance, and the union of two souls. They are an essential part of Indian and many South Asian wedding rituals, representing the beginning of a shared journey.",
+    "image": "",
+    "is_active": true,
+    "created_at": "2025-05-13T07:14:07.452Z",
+    "updated_at": "2025-05-13T07:14:07.452Z"
+  }
+},
+{
+  "model": "mainApp.category",
+  "pk": 4,
+  "fields": {
+    "name": "Jewellery Garland",
+    "slug": "jewellery-garlands",
+    "description": "jewellery-haar",
+    "image": "",
+    "is_active": true,
+    "created_at": "2025-05-14T05:43:02.802Z",
+    "updated_at": "2025-05-14T05:43:02.802Z"
+  }
+},
+{
+  "model": "mainApp.category",
+  "pk": 5,
+  "fields": {
+    "name": "Decoration Flowers",
+    "slug": "decoration",
+    "description": "",
+    "image": "",
+    "is_active": true,
+    "created_at": "2025-05-18T07:52:44.967Z",
+    "updated_at": "2025-05-18T07:55:08.247Z"
+  }
+}
+]
