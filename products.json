@@ -1,428 +1,188 @@
 [
-{
-  "model": "mainApp.product",
-  "pk": 6,
-  "fields": {
+  {
     "name": "Bride Floral Garland with Jewellery Set",
     "slug": "bride-floral-garland-jewellery-set",
     "description": "This bridal floral jewelry set features intricately handcrafted accessories made from realistic artificial flowers in vibrant red and white hues. \r\nThe main floral components are red rosettes complemented by small white buds, likely made from materials like foam, silk, or fabric to mimic the appearance of real flowers such as roses, jasmine (mogra), and button flowers. \r\nThe garland used in the set is beautifully designed using red rose-like rosettes and white jasmine-style buds, giving a traditional and festive look.\r\n\r\nThe set includes:\r\n- A long layered necklace and matching choker, both decorated with red flower centers and white buds forming the garland.\r\n- Earrings and hair accessories designed with matching red rosettes surrounded by white buds.\r\n- Armlets and bangles adorned with similar floral patterns.\r\n- A floral waistband and hand jewelry enhancing the ethnic look.\r\n\r\nThis set is ideal for baby showers, traditional ceremonies, or pre-wedding photoshoots, offering a fresh, elegant, and culturally rooted appearance with long-lasting floral accessories.",
-    "created_at": "2025-05-13T07:24:39.316Z",
-    "updated_at": "2025-05-13T08:24:23.925Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/Bride_Flower_Garland_1.png",
-    "image2": "products/Bride_Flower_Garland_2.png"
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 7,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Fresh Flower Bridal Garland and Jewellery Set",
     "slug": "fresh-flower-bridal-garland-jewelry-set",
-    "description": "This exquisite fresh flower bridal jewelry set is a stunning display of traditional craftsmanship and natural beauty. The set features a vibrant combination of jasmine (mogra) buds, pink lotus flowers, green button chrysanthemums, and delicate white fillers, all artistically arranged to create a luxurious and fragrant ensemble.\r\n\r\nThe garland is richly layered with strands of fresh jasmine buds interwoven with green chrysanthemums and accented with prominent pink lotus blooms and pearl strings, offering a soft yet striking contrast. Each floral element is meticulously selected for its color, fragrance, and freshness, perfectly complementing the bride�s traditional saree and enhancing her grace.\r\n\r\nThe set includes a grand jasmine-based garland with lotus flower accents, a matching floral choker and long necklace, earrings, a maang tikka, armlets, bangles, a waistband, and hand jewelry�each crafted with the same attention to floral harmony. Ideal for baby showers, haldi ceremonies, or traditional pre-wedding functions, this fresh flower set provides a regal and naturally elegant look for the modern bride.",
-    "created_at": "2025-05-13T09:09:52.900Z",
-    "updated_at": "2025-05-13T09:11:57.681Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/Garland_2.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 8,
-  "fields": {
+    "description": "This exquisite fresh flower bridal jewelry set is a stunning display of traditional craftsmanship and natural beauty. The set features a vibrant combination of jasmine (mogra) buds, pink lotus flowers, green button chrysanthemums, and delicate white fillers, all artistically arranged to create a luxurious and fragrant ensemble.\r\n\r\nThe garland is richly layered with strands of fresh jasmine buds interwoven with green chrysanthemums and accented with prominent pink lotus blooms and pearl strings, offering a soft yet striking contrast. Each floral element is meticulously selected for its color, fragrance, and freshness, perfectly complementing the bride’s traditional saree and enhancing her grace.\r\n\r\nThe set includes a grand jasmine-based garland with lotus flower accents, a matching floral choker and long necklace, earrings, a maang tikka, armlets, bangles, a waistband, and hand jewelry—each crafted with the same attention to floral harmony. Ideal for baby showers, haldi ceremonies, or traditional pre-wedding functions, this fresh flower set provides a regal and naturally elegant look for the modern bride.",
+    "category": 3
+  },
+  {
     "name": "Mixed Floral Bridal Jewelry Set with Roses and Pearls",
     "slug": "mixed-floral-bridal-jewelry-set-roses-pearls",
-    "description": "This elegant bridal floral jewelry set features a stunning mix of fresh-looking artificial and natural flowers, thoughtfully arranged with delicate pearls to create a luxurious and regal appearance. The floral arrangement includes soft peach and pink roses, deep red flowers resembling zinnias or gerberas, and white button-like chrysanthemums, all enhanced with green fillers and fine pearl chains.\r\n\r\nThe garland and waist belt are intricately crafted using alternating patterns of red, white, and peach-toned flowers, forming a rich and festive floral motif. The jewelry set includes layered necklaces, a choker, earrings, maang tikka (forehead accessory), armlets, bangles, and a beautifully designed floral waistband, all combining roses and chrysanthemums with pearl strands for a graceful finish.\r\n\r\nThis set is perfect for baby showers, haldi or mehendi ceremonies, and other traditional events. It�s ideal for brides who want to combine vibrant floral beauty with a touch of classic elegance, making it a standout choice for capturing timeless, tradition-rich moments.",
-    "created_at": "2025-05-13T09:13:10.214Z",
-    "updated_at": "2025-05-13T09:13:10.214Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_3.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 9,
-  "fields": {
-    "name": "Traditional Maharashtrian Bridal Floral Jewelry Set with Baby�s Breath and Roses",
+    "description": "This elegant bridal floral jewelry set features a stunning mix of fresh-looking artificial and natural flowers, thoughtfully arranged with delicate pearls to create a luxurious and regal appearance. The floral arrangement includes soft peach and pink roses, deep red flowers resembling zinnias or gerberas, and white button-like chrysanthemums, all enhanced with green fillers and fine pearl chains.\r\n\r\nThe garland and waist belt are intricately crafted using alternating patterns of red, white, and peach-toned flowers, forming a rich and festive floral motif. The jewelry set includes layered necklaces, a choker, earrings, maang tikka (forehead accessory), armlets, bangles, and a beautifully designed floral waistband, all combining roses and chrysanthemums with pearl strands for a graceful finish.\r\n\r\nThis set is perfect for baby showers, haldi or mehendi ceremonies, and other traditional events. It’s ideal for brides who want to combine vibrant floral beauty with a touch of classic elegance, making it a standout choice for capturing timeless, tradition-rich moments.",
+    "category": 3
+  },
+  {
+    "name": "Traditional Maharashtrian Bridal Floral Jewelry Set with Baby’s Breath and Roses",
     "slug": "maharashtrian-bridal-floral-jewelry-set-babys-brea",
-    "description": "This vibrant and intricately designed Maharashtrian bridal floral jewelry set combines traditional aesthetics with the delicate charm of real-looking artificial flowers. The set features a stunning blend of small white baby�s breath (gypsophila), soft pink and red roses, peach floral accents, and golden embellishments, beautifully paired with pearl strings for a radiant and festive finish.\r\n\r\nThe bridal garland and waistband are crafted with dense layers of gypsophila and rose arrangements, bordered with colorful highlights and matched with golden traditional jewelry. A standout element is the unique nose ring (nath) and floral ear chains, which enhance the authenticity of the Maharashtrian bridal look.\r\n\r\nIncluded in the set are:\r\n\r\nA double-layered floral garland with gold pendant centerpiece.\r\n\r\nMatching choker, maang tikka, and floral hair bun adornments.\r\n\r\nFloral earrings, nose ring, and hand jewelry with pearl details.\r\n\r\nArmlets, bangles, and waistband richly adorned with baby's breath and rose clusters.\r\n\r\nPerfect for baby showers, haldi, godh bharai, or traditional wedding ceremonies, this set offers a perfect balance of cultural elegance and floral freshness, ideal for brides seeking a uniquely regional and timeless look.",
-    "created_at": "2025-05-13T09:15:59.884Z",
-    "updated_at": "2025-05-13T09:15:59.884Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_4.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 10,
-  "fields": {
+    "description": "This vibrant and intricately designed Maharashtrian bridal floral jewelry set combines traditional aesthetics with the delicate charm of real-looking artificial flowers. The set features a stunning blend of small white baby’s breath (gypsophila), soft pink and red roses, peach floral accents, and golden embellishments, beautifully paired with pearl strings for a radiant and festive finish.\r\n\r\nThe bridal garland and waistband are crafted with dense layers of gypsophila and rose arrangements, bordered with colorful highlights and matched with golden traditional jewelry. A standout element is the unique nose ring (nath) and floral ear chains, which enhance the authenticity of the Maharashtrian bridal look.\r\n\r\nIncluded in the set are:\r\n\r\nA double-layered floral garland with gold pendant centerpiece.\r\n\r\nMatching choker, maang tikka, and floral hair bun adornments.\r\n\r\nFloral earrings, nose ring, and hand jewelry with pearl details.\r\n\r\nArmlets, bangles, and waistband richly adorned with baby's breath and rose clusters.\r\n\r\nPerfect for baby showers, haldi, godh bharai, or traditional wedding ceremonies, this set offers a perfect balance of cultural elegance and floral freshness, ideal for brides seeking a uniquely regional and timeless look.",
+    "category": 3
+  },
+  {
     "name": "South Indian Bridal Floral Jewellery Set with Jasmine and Red Accents",
     "slug": "south-indian-bridal-floral-jewelry-set-jasmine-red",
     "description": "This elegant South Indian bridal floral jewelry set brings together traditional charm and natural beauty with a stunning display of fresh-looking artificial flowers. The primary elements of the design are long, cascading jasmine garlands (mogra) paired with red hibiscus-like flower replicas and white floral centers, capturing the essence of classic South Indian bridal adornment.\r\n\r\nThe set features:\r\n\r\nMultiple layers of jasmine garlands draped gracefully over the bride.\r\n\r\nBold red and white floral elements used in the maang tikka, earrings, bangles, and finger rings, with intricate petal detailing.\r\n\r\nBright green buds and red flowers along the sleeves and arms, creating a vibrant contrast with the traditional green and red silk saree.\r\n\r\nA distinctive floral waistband and hand jewelry that complements the full look.\r\n\r\nPerfect for baby showers, traditional pre-wedding ceremonies like Haldi or Seemantham, and festive cultural photoshoots, this jewelry set reflects deep-rooted heritage with a refreshing and regal floral twist.",
-    "created_at": "2025-05-13T09:18:22.849Z",
-    "updated_at": "2025-05-13T09:21:41.641Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_5.png",
-    "image2": "products/garland_5_b.png"
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 11,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Traditional Maharashtrian Floral Jewellery Set with Red and White Accents",
     "slug": "maharashtrian-floral-jewelry-set-red-white",
     "description": "This beautifully handcrafted Maharashtrian-style floral jewelry set radiates elegance and tradition through its simple yet vibrant design. Adorned with artificial red and white flowers, the set blends well with the traditional Paithani saree to create a graceful and auspicious bridal look.\r\n\r\nThe floral components include:\r\n\r\nRed rosette-style artificial flowers paired with white daisy-like centers made from materials such as foam or silk.\r\n\r\nLong strands of pearl-style garlands with white beadwork, creating a layered necklace and matching waist chains.\r\n\r\nCoordinated maang tikka, earrings, and armbands made with matching red-white floral patterns.\r\n\r\nHand accessories and bangles featuring red flowers with contrasting white centers and delicate pearl strings.\r\n\r\nIdeal for baby showers, Godh Bharai, Haldi ceremonies, or pre-wedding photo shoots, this set offers a lightweight, fresh, and photogenic alternative to traditional gold jewelry while retaining the charm of Maharashtrian bridal aesthetics.",
-    "created_at": "2025-05-13T09:22:29.975Z",
-    "updated_at": "2025-05-13T09:25:26.873Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_6.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 12,
-  "fields": {
-    "name": "Pink Orchid and Baby�s Breath Floral Jewelry Set in Royal Purple Theme",
+    "category": 3
+  },
+  {
+    "name": "Pink Orchid and Baby’s Breath Floral Jewelry Set in Royal Purple Theme",
     "slug": "pink-orchid-babys-breath-floral-jewelry-set",
-    "description": "Elevate your special occasion look with this exquisite Pink Orchid and Baby�s Breath Floral Jewelry Set, beautifully crafted to complement vibrant traditional sarees. Designed for festive events like Godh Bharai, Seemantham, or Baby Showers, this set adds a luxurious floral touch to your ensemble.\r\n\r\nThe set includes:\r\n\r\nSoft pink orchid petals intricately combined with delicate white baby�s breath flowers, creating a romantic and regal appeal.\r\n\r\nLayered off-white pearl garlands for a rich traditional look.\r\n\r\nCoordinated maang tikka, earrings, necklace, waistband, bangles, and haathphool featuring floral arrangements.\r\n\r\nGolden temple-style elements such as the Lakshmi pendant for a classic fusion touch.\r\n\r\nDesigned to match perfectly with silk sarees, especially in purple and gold tones.\r\n\r\nThis floral set is the ideal pick for brides and expectant mothers who want a balance of elegance, freshness, and cultural richness in their attire.",
-    "created_at": "2025-05-13T09:26:37.294Z",
-    "updated_at": "2025-05-13T09:26:37.294Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_7.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 13,
-  "fields": {
+    "description": "Elevate your special occasion look with this exquisite Pink Orchid and Baby’s Breath Floral Jewelry Set, beautifully crafted to complement vibrant traditional sarees. Designed for festive events like Godh Bharai, Seemantham, or Baby Showers, this set adds a luxurious floral touch to your ensemble.\r\n\r\nThe set includes:\r\n\r\nSoft pink orchid petals intricately combined with delicate white baby’s breath flowers, creating a romantic and regal appeal.\r\n\r\nLayered off-white pearl garlands for a rich traditional look.\r\n\r\nCoordinated maang tikka, earrings, necklace, waistband, bangles, and haathphool featuring floral arrangements.\r\n\r\nGolden temple-style elements such as the Lakshmi pendant for a classic fusion touch.\r\n\r\nDesigned to match perfectly with silk sarees, especially in purple and gold tones.\r\n\r\nThis floral set is the ideal pick for brides and expectant mothers who want a balance of elegance, freshness, and cultural richness in their attire.",
+    "category": 3
+  },
+  {
     "name": "Red and White Daisy Floral Jewelry Set with Pearl Detailing",
     "slug": "red-white-daisy-floral-jewelry-set",
     "description": "Brighten your traditional attire with this charming Red and White Daisy Floral Jewelry Set, perfect for baby showers, godh bharai ceremonies, or festive events. The playful contrast of vibrant red daisies and elegant white daisy centers brings a cheerful yet graceful vibe to your special day.\r\n\r\nThe set includes:\r\n\r\nMultiple strands of faux pearl garlands layered with red and white daisy flowers for a complete traditional look.\r\n\r\nCoordinated maang tikka, earrings, necklace, waistband, bangles, and haathphool, each designed with daisy flower clusters.\r\n\r\nIdeal for pairing with green, maroon, or gold-accented sarees for a balanced and festive appearance.\r\n\r\nThis jewelry set adds a fresh floral charm while remaining light and comfortable, perfect for all-day celebrations.",
-    "created_at": "2025-05-13T09:29:20.360Z",
-    "updated_at": "2025-05-13T09:29:20.360Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_8.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 14,
-  "fields": {
-    "name": "Royal Red Daisy Pearl Garland Set � Maharashtrian Floral Jewellery",
+    "category": 3
+  },
+  {
+    "name": "Royal Red Daisy Pearl Garland Set – Maharashtrian Floral Jewellery",
     "slug": "royal-red-daisy-pearl-garland-set",
     "description": "Celebrate your special occasion in style with this stunning floral jewellery set featuring red daisy flowers and elegant pearl strands. Designed especially for godh bharai, haldi, and other Maharashtrian traditional events, this set offers a perfect blend of elegance and culture.\r\n\r\nThe set includes:\r\n\r\nLayered pearl (moti) necklaces and chains for a grand, royal look\r\n\r\nBold red and white daisy flowers (laal aur safed daisy phool) used across the necklace, earrings, haathphool, waistband, and maang tikka\r\n\r\nCoordinated design that complements traditional sarees, especially in festive colors like green and red\r\n\r\nA complete look with matching earrings, bangles, armlets, and head jewellery\r\n\r\nThis floral jewellery set brings charm, freshness, and vibrant tradition to your celebration.",
-    "created_at": "2025-05-13T09:35:49.514Z",
-    "updated_at": "2025-05-13T09:35:49.514Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_9.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 15,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Rose and White Flower Bridal Jewelry Set",
     "slug": "rose-white-flower-bridal-jewelry-set",
     "description": "Brighten your bridal attire with this charming Red Rose and White Blossom Floral Jewelry Set, perfect for pre-wedding ceremonies like Mehndi or Haldi. The vibrant contrast of rich red roses and delicate white blossoms brings a cheerful and elegant vibe to your special day.\r\n\r\nThe set includes:\r\n\r\nA beautifully arranged necklace, likely featuring layered designs of red roses and small white blossoms, creating a complete traditional look.\r\n\r\nCoordinated maang tikka, earrings, bangles, and haathphool, each designed with a blend of red roses and white blossoms.\r\n\r\nIdeal for pairing with yellow, green, or orange-toned outfits for a vibrant and festive appearance.\r\n\r\nThis jewellery set adds a fresh floral charm while remaining light and comfortable, perfect for all-day celebrations.",
-    "created_at": "2025-05-13T11:04:10.807Z",
-    "updated_at": "2025-05-13T11:04:10.807Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_10.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 16,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Floral Radiance Garland with Rose and Mogra",
     "slug": "floral-radiance-rose-mogra-garland",
     "description": "Product Description:\r\n\r\nAdorn yourself with the enchanting Floral Radiance Garland, a meticulously handcrafted piece that exudes traditional elegance and natural beauty. This exquisite garland features a harmonious blend of vibrant red rose (gulab) blossoms and delicate white mogra (mogra) buds, creating a captivating contrast and a sweet, subtle fragrance. The intricate design incorporates these flowers along with shimmering accents and verdant leaves, making it a perfect accessory for special occasions, festive celebrations, or adding a touch of grace to any ensemble.\r\n\r\nDetailed Description:\r\n\r\nThe Floral Radiance Garland is a testament to skilled artistry, where each element is thoughtfully arranged to create a stunning visual impact. The rich red hues of the rose (gulab) symbolize love and auspiciousness, while the pure white mogra (mogra) represents purity and serenity. These blossoms are carefully interspersed with artificial green leaves, adding a touch of freshness and enhancing the overall aesthetic appeal.\r\n\r\nThe garland is intricately woven with strings of lustrous white pearls and features decorative elements that complement the flowers. You'll notice charming floral motifs created with the same rose (gulab) and mogra (mogra) blooms, adding a cohesive and elegant touch. The garland is designed to be comfortably worn and adds a graceful touch to the wearer's attire. Whether you're a bride, a guest at a wedding, or celebrating a festival, the Floral Radiance Garland is sure to make you feel radiant and special.",
-    "created_at": "2025-05-14T05:12:49.091Z",
-    "updated_at": "2025-05-14T05:12:49.091Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_11.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 17,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Crimson Bloom Garland with Rose and Jasmine",
     "slug": "crimson-bloom-rose-jasmine-garland",
     "description": "Product Description:\r\n\r\nElevate your elegance with the Crimson Bloom Garland, a stunning handcrafted accessory that blends tradition with contemporary style. This gorgeous garland showcases vibrant red rose (gulab) blossoms and fragrant white jasmine (chameli) buds, creating a striking visual contrast and a captivating aroma. The intricate design combines these flowers with delicate pearl accents and lush green foliage, making it ideal for weddings, festive occasions, or adding a touch of sophistication to your attire.\r\n\r\nDetailed Description:\r\n\r\nThe Crimson Bloom Garland is a masterpiece of craftsmanship, where each element is meticulously arranged to create a breathtaking effect. The rich red hues of the rose (gulab) symbolize love and auspiciousness, while the pure white jasmine (chameli) represents grace and charm. These blooms are carefully interspersed with artificial green leaves, adding a touch of freshness and enhancing the overall aesthetic appeal.\r\n\r\nThe garland is intricately adorned with strings of lustrous white pearls and features decorative floral motifs created with the same rose (gulab) and jasmine (chameli) flowers, ensuring a cohesive and elegant look. Designed for comfortable wear, this garland will add a touch of sophistication to any outfit. Whether you're a bride, attending a wedding, or celebrating a special event, the Crimson Bloom Garland is sure to make you feel radiant and beautiful.",
-    "created_at": "2025-05-14T05:20:39.158Z",
-    "updated_at": "2025-05-14T05:20:39.158Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_12.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 18,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Azure Bloom Garland with Blue Daisy and White Buds",
     "slug": "azure-bloom-blue-daisy-white-buds-garland",
     "description": "Product Description:\r\n\r\nEmbrace a touch of whimsical beauty with the Azure Bloom Garland. This charming handcrafted piece features vibrant blue daisy-like blossoms and delicate white buds, creating a delightful and eye-catching contrast. The intricate design incorporates these flowers with subtle accents, making it a wonderful accessory for festive occasions, casual celebrations, or adding a pop of color to your style.\r\n\r\nDetailed Description:\r\n\r\nThe Azure Bloom Garland is a celebration of playful elegance, where each element is carefully arranged to create a cheerful visual harmony. The bright blue hues of the daisy-like flowers bring a touch of vibrancy and joy, while the small white buds add a delicate and textured element. These blooms are thoughtfully combined with subtle decorative accents, enhancing the overall charm of the garland.\r\n\r\nThe garland is designed to be lightweight and comfortable to wear. It's a perfect accessory to brighten up any outfit and add a unique touch to your look. Whether you're attending a daytime event, a casual gathering, or simply want to add a splash of color to your day, the Azure Bloom Garland is sure to bring a smile to your face.",
-    "created_at": "2025-05-14T05:43:15.251Z",
-    "updated_at": "2025-05-14T05:43:15.252Z",
-    "category": 4,
-    "subcategory": "basic",
-    "image": "products/garland_13.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 19,
-  "fields": {
+    "category": 4
+  },
+  {
     "name": "Golden Cascade Garland with Marigold and Rose",
     "slug": "golden-cascade-marigold-rose-garland",
     "description": "Product Description:\r\n\r\nAdorn yourself with the radiant Golden Cascade Garland, a handcrafted piece that exudes traditional elegance. This exquisite garland features a harmonious blend of vibrant orange marigold (genda) blossoms and delicate red rose (gulab) buds, creating a captivating contrast. The intricate design incorporates these flowers, making it a perfect accessory for special occasions, festive celebrations, or adding a touch of grace to any ensemble.\r\n\r\nDetailed Description:\r\n\r\nThe Golden Cascade Garland is a testament to skilled artistry, where each element is thoughtfully arranged to create a stunning visual impact. The rich orange hues of the marigold (genda) symbolize auspiciousness, while the vibrant red rose (gulab) represents love. These blossoms are carefully interspersed, enhancing the overall aesthetic appeal.\r\n\r\nThe garland is designed to be comfortably worn and adds a graceful touch to the wearer's attire. Whether you're a bride, a guest at a wedding, or celebrating a festival, the Golden Cascade Garland is sure to make you feel radiant and special.",
-    "created_at": "2025-05-14T05:54:46.405Z",
-    "updated_at": "2025-05-14T05:54:46.405Z",
-    "category": 4,
-    "subcategory": "basic",
-    "image": "products/garland_15.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 20,
-  "fields": {
+    "category": 4
+  },
+  {
     "name": "Lush Bloom Garland with Pink Rose and White Baby's Breath",
     "slug": "lush-bloom-pink-rose-white-babys-breath-garland",
     "description": "Product Description:\r\n\r\nIndulge in the exquisite beauty of the Lush Bloom Garland, a meticulously handcrafted piece that exudes delicate charm. This enchanting garland features vibrant pink rose (gulab) blossoms artfully intertwined with a cloud of delicate white baby's breath (gypsophila), creating a lush and textured effect. The intricate design makes it a perfect accessory for adding a touch of romantic elegance to weddings, special occasions, or any memorable event.\r\n\r\nDetailed Description:\r\n\r\nThe Lush Bloom Garland is a celebration of floral abundance, where each element is carefully placed to create a captivating visual harmony. The soft pink hues of the rose (gulab) symbolize grace and joy, beautifully complemented by the airy and delicate white baby's breath (gypsophila), which adds a touch of ethereal beauty and texture. The combination of these flowers creates a garland that is both vibrant and delicate.\r\n\r\nThe garland is designed for comfortable wear and adds a touch of romantic sophistication to the wearer's attire. Whether you're a bride, part of a bridal party, or attending a special celebration, the Lush Bloom Garland is sure to enhance your natural beauty and make you feel truly special.",
-    "created_at": "2025-05-14T05:55:59.968Z",
-    "updated_at": "2025-05-14T05:55:59.968Z",
-    "category": 4,
-    "subcategory": "basic",
-    "image": "products/garland_14.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 21,
-  "fields": {
+    "category": 4
+  },
+  {
     "name": "Radiant Bloom Garland with Pink Flowers and White Accents",
     "slug": "radiant-bloom-pink-flowers-white-accents-garland",
     "description": "Product Description:\r\n\r\nAdorn yourself with the Radiant Bloom Garland, a handcrafted piece that exudes charm and elegance. This exquisite garland features vibrant pink flowers and delicate white accents, creating a captivating and sophisticated look. The intricate design makes it a perfect accessory for special occasions, festive celebrations, or adding a touch of grace to any ensemble.\r\n\r\nDetailed Description:\r\n\r\nThe Radiant Bloom Garland showcases skilled artistry, where each element is thoughtfully arranged to create a stunning visual impact. The vibrant pink flowers bring a touch of joy and celebration, while the delicate white accents add a touch of sophistication and enhance the overall aesthetic appeal.\r\n\r\nThe garland is designed to be comfortably worn and adds a graceful touch to the wearer's attire. Whether you're a bride, a guest at a wedding, or celebrating a festival, the Radiant Bloom Garland is sure to make you feel radiant and special.",
-    "created_at": "2025-05-14T06:09:14.788Z",
-    "updated_at": "2025-05-14T06:09:14.788Z",
-    "category": 4,
-    "subcategory": "basic",
-    "image": "products/garland_16.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 22,
-  "fields": {
+    "category": 4
+  },
+  {
     "name": "Radiant Marigold and Rose Garland",
     "slug": "radiant-marigold-rose-garland",
     "description": "Product Description:\r\n\r\nAdorn yourself with the Radiant Marigold and Rose Garland, a handcrafted piece that exudes traditional elegance. This exquisite garland features a harmonious blend of vibrant orange marigold (genda) blossoms and delicate red rose (gulab) buds, creating a captivating contrast. The intricate design incorporates these flowers, making it a perfect accessory for special occasions, festive celebrations, or adding a touch of grace to any ensemble.\r\n\r\nDetailed Description:\r\n\r\nThe Radiant Marigold and Rose Garland is a testament to skilled artistry, where each element is thoughtfully arranged to create a stunning visual impact. The rich orange hues of the marigold (genda) symbolize auspiciousness, while the vibrant red rose (gulab) represents love and passion. These blossoms are carefully interspersed, enhancing the overall aesthetic appeal.\r\n\r\nOccasions:\r\n\r\nThis garland is perfect for weddings, religious ceremonies, festive celebrations like Diwali, Baby Shower and any occasion where you want to add a touch of traditional Indian elegance.",
-    "created_at": "2025-05-14T06:23:56.247Z",
-    "updated_at": "2025-05-14T06:23:56.247Z",
-    "category": 4,
-    "subcategory": "basic",
-    "image": "products/garland_17.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 23,
-  "fields": {
+    "category": 4
+  },
+  {
     "name": "Delicate Rose and White Accent Garland",
     "slug": "delicate-rose-white-accent-garland",
     "description": "Product Description:\r\n\r\nAdorn yourself with the Delicate Rose and White Accent Garland, a charming handcrafted piece that exudes subtle beauty. This lovely garland features vibrant red rose (gulab) blossoms complemented by delicate white accents, creating a captivating and graceful look. The intricate design makes it a perfect accessory for special occasions, festive celebrations, or adding a touch of elegance to any ensemble.\r\n\r\nDetailed Description:\r\n\r\nThe Delicate Rose and White Accent Garland showcases skilled artistry, where each element is thoughtfully arranged to create a visually appealing design. The vibrant red hues of the rose (gulab) symbolize love and auspiciousness, beautifully contrasted by the pure white accents that add a touch of serenity and refinement. The garland is also adorned with strings of white pearls, enhancing its delicate charm.\r\n\r\nOccasions:\r\n\r\nThis garland is a wonderful choice for pre-wedding ceremonies like Haldi and Mehndi, festive occasions, traditional gatherings, and any event where you want to add a touch of floral elegance.",
-    "created_at": "2025-05-14T06:25:09.902Z",
-    "updated_at": "2025-05-14T06:25:09.902Z",
-    "category": 4,
-    "subcategory": "basic",
-    "image": "products/garland_18.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 24,
-  "fields": {
+    "category": 4
+  },
+  {
     "name": "Ethereal Pink Rose and Pearl Garland Set",
     "slug": "ethereal-pink-rose-pearl-garland-set",
     "description": "Product Description:\r\n\r\nEmbrace ethereal beauty with the Ethereal Pink Rose and Pearl Garland Set, a delicate and charming collection of handcrafted floral jewelry. This set features soft pink rose (gulab) blossoms delicately accented with tiny white pearls, creating a look of gentle elegance. The set includes a necklace, earrings, a maang tikka (forehead ornament), armbands, and a waist belt, all designed to complement each other perfectly for a cohesive and graceful appearance.\r\n\r\nDetailed Description:\r\n\r\nEach piece in the Ethereal Pink Rose and Pearl Garland Set is crafted with meticulous attention to detail. The soft pink hues of the rose (gulab) symbolize tenderness and grace, while the lustrous white pearls add a touch of classic sophistication. The necklace features a central arrangement of pink roses and pearls, cascading into multiple strands of pearls. The earrings echo this design, adding a delicate touch to the face. The maang tikka features a central pink rose surrounded by pearls, drawing attention to the forehead. The armbands and waist belt continue this floral and pearl motif, creating a harmonious and beautiful ensemble.\r\n\r\nOccasions:\r\n\r\nThis delicate floral set is ideal for pre-wedding ceremonies like the Mehndi or Haldi, baby showers, spring festivals, and any occasion where a touch of soft, floral elegance is desired. It's also a beautiful choice for daytime events and celebrations.",
-    "created_at": "2025-05-14T06:34:09.173Z",
-    "updated_at": "2025-05-14T06:34:09.173Z",
-    "category": 4,
-    "subcategory": "basic",
-    "image": "products/garland_19.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 25,
-  "fields": {
+    "category": 4
+  },
+  {
     "name": "Serene Pink and White Rose Jaimala Set",
     "slug": "serene-pink-white-rose-jaimala-set",
     "description": "Product Description:\r\n\r\nCelebrate your special union with the Serene Pink and White Rose Jaimala Set, a pair of exquisitely handcrafted garlands symbolizing love and purity. These jaimalas feature a graceful arrangement of soft pink rose (gulab) blossoms and pristine white rose (gulab) blossoms, delicately interspersed with sprigs of baby's breath (gypsophila). The harmonious blend of colors and textures creates a visually stunning and fragrant symbol of your commitment.\r\n\r\nDetailed Description:\r\n\r\nEach jaimala in the Serene Pink and White Rose Jaimala Set is meticulously crafted to create a balanced and beautiful design. The soft pink roses (gulab) represent romance and joy, while the pure white roses (gulab) symbolize new beginnings and purity. The delicate clusters of baby's breath (gypsophila) add an airy and elegant touch, enhancing the overall beauty of the garlands. These jaimalas are designed to be comfortably worn and will add a touch of natural elegance to your wedding ceremony.\r\n\r\nOccasions:\r\n\r\nThese jaimalas are specifically designed for wedding ceremonies, particularly during the Jaimala (garland exchange) ritual. They symbolize the union of two souls and the acceptance of each other.",
-    "created_at": "2025-05-14T06:37:13.708Z",
-    "updated_at": "2025-05-14T06:37:13.708Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_20.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 26,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Velvet Crimson and Ivory Rose Jaimala Set",
     "slug": "velvet-crimson-ivory-rose-jaimala-set",
     "description": "Product Description:\r\n\r\nCelebrate your sacred union with the Velvet Crimson and Ivory Rose Jaimala Set, a pair of beautifully handcrafted garlands that exude sophistication and romance. These jaimalas feature deep crimson rose (gulab) blossoms and soft ivory rose (gulab) blossoms, delicately interspersed with clusters of baby's breath (gypsophila). The rich contrast in colors and the delicate texture create a stunning visual representation of your love and commitment.\r\n\r\nDetailed Description:\r\n\r\nEach jaimala in the Velvet Crimson and Ivory Rose Jaimala Set is carefully crafted to create a harmonious and luxurious design. The deep crimson roses (gulab) symbolize profound love and passion, while the soft ivory roses (gulab) represent purity and grace. The delicate sprigs of baby's breath (gypsophila) add an airy and ethereal touch, enhancing the overall elegance of the garlands. These jaimalas are designed to be lightweight and comfortable to wear throughout your wedding ceremony.\r\n\r\nOccasions:\r\n\r\nThese Jaimalas are specifically designed for wedding ceremonies, symbolizing the exchange of love and acceptance between the bride and groom during the Jaimala ritual. Their elegant color combination makes them suitable for a variety of wedding themes.",
-    "created_at": "2025-05-14T06:58:41.865Z",
-    "updated_at": "2025-05-14T06:58:41.865Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_21.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 27,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Elegant Rose (Gulab) & Baby's Breath Garland - Dark Pink & White",
     "slug": "elegant-rose-gulab-babys-breath-garland",
     "description": "Adorn yourself with the simple yet profound beauty of this fresh flower garland. It features a thoughtfully arranged composition of vibrant dark pink roses (Gulab) and the delicate charm of white baby's breath.\r\n\r\nThe deep pink roses, symbols of love and admiration, are carefully placed alongside sprigs of baby's breath, which represent purity and everlasting affection. This pairing creates a visually appealing garland with a balanced texture and a lovely, natural fragrance.\r\n\r\nWhether celebrating a wedding, an engagement, or another cherished milestone, this garland of fresh roses and baby's breath adds a touch of natural elegance and heartfelt beauty to the occasion.",
-    "created_at": "2025-05-16T12:18:36.251Z",
-    "updated_at": "2025-05-16T12:18:36.251Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_23.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 28,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Lush Pink Rose (Gulab) Petal Garland with Green Accents - Set of Two",
     "slug": "lush-pink-rose-petal-garland-green-accents-set",
     "description": "This enchanting set features two exquisitely crafted fresh flower garlands, each a vibrant cascade of delicate pink rose (Gulab) petals, artfully accented with lush green foliage and delicate white fillers. These haars embody a blend of rich color and natural softness, perfect for celebrating moments of love and union.\r\n\r\nEach garland showcases a dense arrangement of meticulously placed pink rose petals, creating a full and visually captivating texture. The vibrant pink is beautifully complemented by the verdant green accents, adding a touch of freshness and natural harmony. Delicate white fillers are subtly incorporated, enhancing the overall elegance and providing a gentle contrast. The top and bottom of each garland are thoughtfully finished with clusters of matching pink roses and green foliage, adding a touch of refined detail.\r\n\r\nIdeal for wedding ceremonies, engagement celebrations, or any occasion where a touch of natural beauty and traditional elegance is desired, this set of pink rose petal garlands will add a graceful and memorable element to your special day. The soft fragrance of fresh roses will further enhance the joyous atmosphere.",
-    "created_at": "2025-05-16T12:21:18.368Z",
-    "updated_at": "2025-05-16T12:21:18.368Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_24.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 29,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Elegant Jasmine (Mogra) & Peacock Feather Garland Set",
     "slug": "elegant-jasmine-mogra-peacock-feather-garland-set",
     "description": "This exquisite set features two uniquely designed garlands, blending the traditional fragrance of jasmine (Mogra) with the regal beauty of peacock feathers. The delicate white jasmine buds are intricately woven to create a lush and fragrant base, while vibrant peacock feathers are artfully incorporated for a touch of opulence and distinctive charm. Accents of green and subtle embellishments further enhance the visual appeal of these stunning haars.\r\n\r\nEach garland showcases the meticulous craftsmanship of layering countless fresh jasmine (Mogra) buds, known for their sweet and intoxicating aroma. The incorporation of peacock feathers, with their iridescent blues, greens, and golds, adds a majestic and eye-catching element, symbolizing beauty, pride, and auspiciousness in Indian culture. Touches of green, possibly from leaves or dyed floral elements, provide a refreshing contrast, while delicate tassels at the ends add a traditional finish.\r\n\r\nPerfect for weddings, especially the varmala ceremony, engagements, and other significant celebrations where a touch of traditional elegance with a unique flair is desired. These garlands will undoubtedly make a memorable statement.",
-    "created_at": "2025-05-18T07:45:57.536Z",
-    "updated_at": "2025-05-18T07:45:57.536Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/WhatsApp_Image_2025-04-26_at_21.27.51_d6f5c5c2.jpg",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 30,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Vibrant Marigold (Genda) & Mixed Flower Toran - Festive Door Hanging",
     "slug": "vibrant-marigold-genda-mixed-flower-toran",
     "description": "Add a burst of color and traditional charm to your home or event with this stunning fresh flower toran. Handcrafted with layers of vibrant yellow marigolds (Genda) and accented with contrasting bands of white, purple, and green flowers, this decorative hanging creates a welcoming and festive ambiance. The intricate design and the fragrant aroma of fresh blooms make it a perfect adornment for celebrations and auspicious occasions.\r\n\r\nThis toran features a rich arrangement of plump yellow marigold (Genda) flowers, symbolizing auspiciousness and positive energy. Interspersed are bands of crisp white flowers (likely chrysanthemums or tuberose), deep purple blooms (possibly asters or smaller chrysanthemums), and lush green foliage, creating a visually appealing and textured design. The scalloped or semi-circular pattern is a classic style for torans, meant to bring good luck and welcome guests. The sturdy construction ensures it can be easily hung above doorways or entrances.\r\n\r\nIdeal for Diwali, Dussehra, weddings, housewarmings (Griha Pravesh), religious festivals, and any celebration where a touch of traditional Indian decor is desired. This fresh flower toran will infuse your space with vibrancy and a delightful natural fragrance.",
-    "created_at": "2025-05-18T07:53:03.618Z",
-    "updated_at": "2025-05-18T07:53:03.618Z",
-    "category": 5,
-    "subcategory": "basic",
-    "image": "products/IMG-20250427-WA0127.jpg",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 31,
-  "fields": {
+    "category": 5
+  },
+  {
     "name": "Grand Set of Assorted Wedding Garlands - Roses, Carnations, Tuberoses",
     "slug": "grand-set-assorted-wedding-garlands",
     "description": "This magnificent set offers a diverse collection of beautifully handcrafted fresh flower garlands, perfect for adorning the bride, groom, and wedding party during traditional Indian wedding ceremonies. The set includes a variety of styles and floral combinations, featuring the timeless elegance of roses (Gulab), the delicate charm of carnations, and the fragrant allure of tuberoses (Rajnigandha), ensuring a rich and visually stunning floral presentation for your special day.\r\n\r\nThe assortment includes long, layered garlands of deep red roses (Gulab) interspersed with delicate white flowers, creating a classic and romantic look. You'll also find garlands predominantly made of pristine white tuberoses (Rajnigandha), known for their intoxicating fragrance and symbolizing purity. Adding texture and color are garlands featuring vibrant red and white carnations, offering a different aesthetic. The varying styles and lengths within the set allow for versatile use, from the main varmalas for the couple to decorative garlands for other family members.\r\n\r\nThis comprehensive set ensures you have a harmonious and abundant display of fresh flowers to enhance the beauty and auspiciousness of your wedding celebrations. The natural fragrance and vibrant colors of these traditional garlands will create a memorable and enchanting atmosphere.",
-    "created_at": "2025-05-18T07:55:25.857Z",
-    "updated_at": "2025-05-18T07:55:25.857Z",
-    "category": 5,
-    "subcategory": "basic",
-    "image": "products/IMG-20250427-WA0121.jpg",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 32,
-  "fields": {
+    "category": 5
+  },
+  {
     "name": "Fragrant Tuberose (Rajnigandha) Wedding Garlands - Set of Two",
     "slug": "fragrant-tuberose-rajnigandha-wedding-garlands",
     "description": "This elegant set features two beautifully crafted fresh flower wedding garlands, predominantly made of fragrant white tuberoses (Rajnigandha). These traditional haars exude a subtle yet captivating aroma and symbolize purity, auspiciousness, and new beginnings, making them perfect for the bride and groom's exchange during the wedding ceremony.\r\n\r\nEach garland is densely woven with numerous pristine white tuberose (Rajnigandha) blossoms. The delicate petals and intoxicating fragrance of these flowers create a sensory experience that enhances the sacredness and joy of the occasion. The garlands are designed to be substantial yet comfortable to wear during the wedding rituals. Their classic white color complements a wide range of bridal and groom attire.\r\n\r\n    Ideal for Hindu wedding ceremonies and other traditional wedding celebrations, this set of tuberose garlands adds a touch of timeless beauty and natural elegance to the special day.\r\n\r\nDetails about the Flowers:\r\n\r\nTuberose (Rajnigandha): The primary flower in these garlands is the tuberose, known as \"Rajnigandha\" in Hindi and Marathi. Tuberoses are highly valued for their pure white color and strong, sweet fragrance. They symbolize purity, sensuality, and new beginnings, making them a popular and traditional choice for wedding adornments in India.\r\n\r\n\r\nOccasions to Use These Garlands:\r\n\r\nWeddings (Varmala Ceremony): Specifically designed for the exchange of garlands between the bride and groom.\r\nPre-Wedding Ceremonies: Can also be used in engagement ceremonies or other auspicious pre-wedding rituals.",
-    "created_at": "2025-05-18T07:58:55.331Z",
-    "updated_at": "2025-05-18T07:58:55.331Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/IMG-20250427-WA0024.jpg",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 33,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Pink Carnation & White Chrysanthemum Wedding Garlands - Set of Two",
     "slug": "pink-carnation-white-chrysanthemum-wedding-garland",
     "description": "This beautiful set features two traditional wedding garlands, showcasing the delicate beauty of pink carnations and the classic elegance of white chrysanthemums. These fresh flower haars are designed to adorn the bride and groom, adding a touch of cultural richness and natural beauty to their special day.\r\n\r\nEach garland is predominantly crafted with layers of soft pink carnations, symbolizing love, affection, and admiration. Accents of pristine white chrysanthemums add a contrasting texture and visual appeal, representing purity, loyalty, and new beginnings. The combination of these flowers creates a harmonious blend of tradition and elegance, perfect for a South Indian wedding ceremony.\r\n\r\nDetails about the Flowers:\r\n\r\nCarnation: The pink carnations are the main element of these garlands. While there isn't a direct equivalent in Hindi, they are often referred to as \"pink carnation\" or sometimes simply \"gulabi carnation\". Pink carnations symbolize love, affection, gratitude, and remembrance.\r\nChrysanthemum: The white chrysanthemums add a touch of vibrancy and texture. Chrysanthemums, while not having a direct Hinglish translation, are often referred to by their English name. They symbolize purity, loyalty, and new beginnings.\r\nOccasions to Use These Garlands:\r\n\r\nSouth Indian Weddings (Varmala Ceremony): Specifically designed for the exchange of garlands between the bride and groom during the wedding ceremony.\r\nPre-Wedding Ceremonies: Can also be used in engagement ceremonies or other auspicious pre-wedding rituals.",
-    "created_at": "2025-05-18T08:02:14.983Z",
-    "updated_at": "2025-05-18T08:02:14.983Z",
-    "category": 3,
-    "subcategory": "basic",
-    "image": "products/garland_27.png",
-    "image2": ""
-  }
-},
-{
-  "model": "mainApp.product",
-  "pk": 34,
-  "fields": {
+    "category": 3
+  },
+  {
     "name": "Vibrant Onam Pookalam Kit - Traditional Floral Rangoli Design",
     "slug": "vibrant-onam-pookalam-kit",
-    "description": 
+    "description": "Celebrate the spirit of Onam with our vibrant DIY Pookalam kit! This kit provides you with a beautiful assortment of fresh flower petals in rich yellows, oranges, whites, and magenta, carefully selected to help you create a traditional and auspicious floral rangoli design, similar to the one pictured. Bring the colors and fragrance of Kerala's most beloved festival to your doorstep and create a stunning Pookalam to welcome prosperity and joy.\r\n\r\nOur kit includes a generous quantity of fresh petals from marigolds (Genda), chrysanthemums, and possibly roses or other seasonal flowers, pre-sorted by color to make the creation process easy and enjoyable. You'll also receive a detailed design template inspired by classic Pookalam patterns, along with simple instructions to guide you in arranging the petals to achieve this eye-catching circular motif. Perfect for families, cultural events, and anyone wanting to embrace the beauty of Onam.\r\n\r\nDetails about the Flowers (Likely Included):\r\n\r\nMarigold (Genda): Providing the vibrant yellow and orange hues, symbolizing auspiciousness and positive energy. In Hindi, marigold is known as Genda (गेंदा).\r\nChrysanthemum: Contributing the white and possibly some of the magenta tones, representing purity and beauty. Chrysanthemum doesn't have a widely used direct Hinglish translation but is often referred to as Chrysanthemum.\r\nRose (Gulab) or other seasonal flowers: The magenta color could come from rose petals or other locally available flowers in that shade. Rose is known as Gulab (गुलाब) in Hindi.",
+    "category": 5
+  },
+  {
+    "name": "Festive Mixed Flower Toran - Marigold, Chrysanthemum, Rose",
+    "slug": "festive-mixed-flower-toran",
+    "description": "Brighten any doorway or entrance with this eye-catching fresh flower toran. Handcrafted with layers of cheerful yellow marigolds (Genda), crisp white and pink chrysanthemums, and deep red roses (Gulab), this decorative hanging creates a welcoming and festive ambiance. The rich blend of colors and the natural fragrance of the flowers make it a perfect adornment for celebrations and auspicious occasions.\r\n\r\nThis toran features a prominent top border of vibrant yellow marigolds (Genda), symbolizing auspiciousness and positive energy. Below, cascading layers of white and pink chrysanthemums create a beautiful contrast, representing purity and joy. Bands of deep red rose (Gulab) petals add a touch of classic elegance and love. The sides of the toran feature intricate hanging strands of white flowers accented with marigold and pink blooms, adding further visual interest. The overall effect is a lush and fragrant decoration that will enhance any space.\r\n\r\nDetails about the Flowers:\r\n\r\nMarigold (Genda): The bright yellow flowers at the top symbolize auspiciousness and positive energy. In Hindi, marigold is known as Genda (गेंदा).\r\nChrysanthemum: The white and pink layered flowers represent purity and joy. Chrysanthemum doesn't have a widely used direct Hinglish translation but is often referred to as Chrysanthemum.\r\nRose (Gulab): The deep red petals add a touch of classic elegance and symbolize love. Rose is known as Gulab (गुलाब) in Hindi.\r\nOccasions to Use This Toran:\r\n\r\nFestivals: Perfect for Diwali, Dussehra, Ganesh Chaturthi, and other Hindu festivals.\r\nShop Openings: To create a welcoming and auspicious entrance for a new business.\r\nHousewarmings (Griha Pravesh): To decorate the entrance of a new home.\r\nWeddings: To add a traditional and festive touch to the wedding venue.\r\nPoojas and Ceremonies: To adorn doorways during religious events.\r\nGeneral Decorations: To bring a vibrant and colorful touch to any celebration or gathering.",
+    "category": 3
+  },
+  {
+    "name": "Vibrant Marigold Garland with Purple Accents",
+    "slug": "vibrant-marigold-garland-purple-accents",
+    "description": "Add a touch of traditional elegance and vibrant color to any space with this beautiful fresh flower garland. Handcrafted with layers of cheerful yellow marigolds (Genda) and accented with striking purple and green floral elements, this decorative hanging creates a welcoming and festive ambiance. The rich colors and the natural fragrance of the flowers make it a perfect adornment for celebrations and auspicious occasions.\r\n\r\nThis garland features a dense arrangement of vibrant yellow marigolds (Genda), symbolizing auspiciousness and positive energy. The deep purple accents provide a rich and regal contrast, while the green elements add a touch of freshness and natural harmony. The unique design with hanging strands and decorative elements at the bottom makes this garland a standout piece.\r\n\r\nDetails about the Flowers:\r\n\r\nMarigold (Genda): The bright yellow flowers symbolize auspiciousness and positive energy. In Hindi, marigold is known as Genda (गेंदा).\r\nPurple Flowers: The purple flowers add a touch of richness and elegance. While the specific type isn't clear from the image, they could be a variety of chrysanthemum, aster, or another purple bloom.\r\nGreen Elements: The green accents, while not flowers, add a touch of freshness and natural balance.\r\nOccasions to Use This Garland:\r\n\r\nFestivals: Perfect for Diwali, Dussehra, Ganesh Chaturthi, and other Hindu festivals.\r\nWeddings: To decorate the entrance of the wedding venue or as part of the mandap decor.\r\nHousewarmings (Griha Pravesh): To welcome positive energy into a new home.\r\nPoojas and Ceremonies: To adorn doorways or sacred spaces during religious events.\r\nGeneral Decorations: To bring a vibrant and colorful touch to any celebration or gathering.",
+    "category": 5
+  }
+]
